@@ -24,4 +24,12 @@ Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
 14. Link database
 15. npm i --save-dev dotenv  (to set up environment variables)
 16. Add to git
-17. Add gitignore
+17. Add .gitignore file and put relevant pieces in it
+18. Push to GitHub
+19. Heroku setup
+20. MongoDB Atlas setup
+21. Set up lots of ejs, partials, routes
+22. npm i body-parser
+
+
+
