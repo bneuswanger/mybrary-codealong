@@ -23,3 +23,5 @@ Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
 13. Create index.ejs file inside views folder. 
 14. Link database
 15. npm i --save-dev dotenv  (to set up environment variables)
+16. Add to git
+17. Add gitignore
