@@ -8,6 +8,7 @@ const bodyParser = require('body-parser')
 
 const indexRouter = require('./routes/index')
 const authorRouter = require('./routes/authors')
+const bookRouter = require('./routes/books')
 
 app.set('view engine', 'ejs')            //setting ejs as our view engine
 app.set('views', __dirname + '/views')   //setting where our views will be coming from
@@ -24,6 +25,7 @@ db.once('open', () => console.log('Connected to Mongoose'))
 
 app.use('/', indexRouter)
 app.use('/authors', authorRouter)
+app.use('/books', bookRouter)
 
 
 app.listen(process.env.PORT || 3000)     //pulls from an environment variable when we deploy, but for dev we default to 3000

@@ -30,6 +30,7 @@ Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
 20. MongoDB Atlas setup
 21. Set up lots of ejs, partials, routes
 22. npm i body-parser
-
+23. A bunch of stuff
+24. npm i multer (helps with images)
 
 
