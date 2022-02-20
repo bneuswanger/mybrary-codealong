@@ -32,5 +32,8 @@ Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
 22. npm i body-parser
 23. A bunch of stuff
 24. npm i multer (helps with images)
+25. filepond via CDN to handle image integration with database
+26. uninstalled Multer (filepond replaces it)
+
 
 
