@@ -1,5 +1,18 @@
-Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
+# 'Mybrary' code-along project
+> Based on *Full Stack Web Development Course* created by **Web Dev Simplified** on YouTube. 
 
+## ME~~R~~N Tech Stack (no React)
+* Node.js 
+* Express
+* MongoDB
+* Heroku
+* MongoDB Cloud (Atlas)  
+
+## Rationale
+After completing Colt Steele's Web Developer Bootcamp 2022 up to (but not including) the YelpCamp project, I wanted more practice with Node/Express/MongoDB and go through the motions of deployment.   
+
+# My Notes
+## Initial Setup Steps
 1. Make new project folder on PC.  
 2. Run GitBash inside the folder.  Type code . to open in VS code
 3. In VScode, open up the bash terminal and type: 
@@ -35,6 +48,3 @@ Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
 25. filepond via CDN to handle image integration with database
 26. uninstalled Multer (filepond replaces it)
 27. npm i method-override 
-
-
-
