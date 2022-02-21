@@ -34,6 +34,7 @@ Code-Along with WebDev Simplified: Node.js/Express/MongoDB Course #1
 24. npm i multer (helps with images)
 25. filepond via CDN to handle image integration with database
 26. uninstalled Multer (filepond replaces it)
+27. npm i method-override 
 
 
 
