@@ -5,6 +5,7 @@ const Book = require('../models/book')
 const Author = require('../models/author')
 const { cookie, redirect } = require('express/lib/response')
 const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif']
+
 // All Books Route
 router.get('/', async (req, res) => {
     let query = Book.find()

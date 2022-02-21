@@ -48,3 +48,4 @@ After completing Colt Steele's Web Developer Bootcamp 2022 up to (but not includ
 25. filepond via CDN to handle image integration with database
 26. uninstalled Multer (filepond replaces it)
 27. npm i method-override 
+28. Added live server web extension to Chrome to enable live server when running a server
