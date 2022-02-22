@@ -1,43 +1,65 @@
 :root {
-    --book-cover-width: 200px;
-    --book-cover-width-large: 325px;
-    --book-cover-aspect-ratio: 0.75;
+	--book-cover-width: 200px;
+	--book-cover-width-large: 325px;
+	--book-cover-aspect-ratio: 0.75;
 }
 
 .book-cover {
-    width: var(--book-cover-width);
-    height: calc(var(--book-cover-width) / (--book-cover-aspect-ratio));
+	width: var(--book-cover-width);
+	height: calc(var(--book-cover-width) / (--book-cover-aspect-ratio));
+	border: 2px solid var(--form-input-border-color);
+	border-radius: .6rem;
+	box-shadow: 3px 5px 9px -4px var(--color-text-light);
+}
+
+.book-cover:hover {
+	box-shadow: 5px 5px 15px -4px var(--color-text-light);
+	transform: scale(1.01);
+}
+
+.book-cover-upload,
+.book-cover-upload:hover {
+	border: none;
+	border-radius: none;
+	box-shadow: none;
+	transform: none;
+}
+
+.book-cover-show,
+.book-cover-show:hover {
+	transform: none;
+	box-shadow: 3px 3px 8px -4px var(--color-text-light);
 }
 
 .book-cover-large {
-    --book-cover-width: var(--book-cover-width-large);
+	--book-cover-width: var(--book-cover-width-large);
 }
 
 .book-grid {
-    display: grid;
-    justify-content: center;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fill, var(--book-cover-width));
+	display: grid;
+	justify-content: center;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fill, var(--book-cover-width));
 }
 
 .book-grid-large {
-    grid-template-columns: repeat(auto-fill, var(--book-cover-width-large));
+	grid-template-columns: repeat(auto-fill, var(--book-cover-width-large));
 }
 
 .book-details {
-    display: flex;
+	display: flex;
 }
 
 .book-details-label {
-    font-size: 1.2rem;
-    font-weight: 500;
-    align-self: flex-start;
+	font-size: 1.2rem;
+	font-weight: 500;
+	align-self: flex-start;
 }
 
 .book-details-grid {
-    display: grid;
-    align-content: flex-start;
-    align-items: center;
-    grid-gap: 1rem;
-    grid-template-columns: auto auto;
+	display: grid;
+	align-content: flex-start;
+	align-items: center;
+	grid-gap: 1rem;
+	grid-template-columns: auto auto;
 }
